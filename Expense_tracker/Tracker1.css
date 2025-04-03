@@ -1,0 +1,201 @@
+body {
+    font-family: "Comfortaa", serif;
+    background: rgb(208, 230, 238);
+}
+
+.header {
+    background: #03124b;
+    color: white;
+    padding-left: 15px;
+    font-size: large;
+}
+
+.input-form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #476EF7;
+    margin-top: 15px;
+    padding: 25px 0px;
+}
+
+#add-button {
+    background: #03124b;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+}
+
+.inputs {
+    width: 30%;
+    max-width: 250px; /* Ensure uniform max width */
+    height: 45px;  /* Set a fixed height */
+    font-size:16px;
+}
+
+.cards {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.card {
+    background: #03124b;
+    border: 20px;
+    height: 150px;
+    width: -120rem;
+}
+
+.card-body {
+    color: white;
+}
+
+
+.transaction-table {
+
+    width: 95%;
+    margin: auto;
+    border: 1px black solid;
+    border-radius: 8px;
+    overflow: hidden;
+    font-weight: 900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    padding: 0px;
+}
+
+#header-row {
+    background: #03124b;;
+
+}
+
+#header-row th {
+    padding: 15px 10px;
+    color: white;
+}
+
+.delete-button,
+.delete-button:hover {
+    background: red;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/*@media only screen and (max-width: 768px) {
+    .header {
+        background: black;
+    }
+
+    .input-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    }
+
+    .inputs {
+        width: 75%;
+    }
+
+    #add-button {
+        background: black;
+        width: 75%;
+        border-radius: 8px;
+    }
+
+    .cards {
+        display: flex;
+        width: 95%;
+        margin: auto;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .card {
+        background: black;
+        border: 0px;
+        height: 150px;
+        width: 150px;
+    }
+
+    #header-row {
+        background: black;
+    
+    }
+
+}*/
+@media only screen and (max-width: 768px) {
+    .header {
+        background: #03124b;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .input-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        box-shadow: 50px 50px 50px rgba(54, 19, 141, 0.5);
+        width: 100%;
+        padding: 15px;
+    }
+
+    .inputs {
+        width: 90%;
+    }
+
+    #add-button {
+        background: #03124b;
+        width: 90%;
+        height: 60px;
+        border-radius: 1px;
+        font-size: large;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .card {
+        background: #03124b;
+        border: 0px;
+        height: auto;
+        width: 90%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .transaction-table {
+        width: 100%;
+        overflow-x: auto;
+        font-size: smaller;
+    }
+
+    #header-row {
+        background: #03124b;
+    }
+
+    #header-row th {
+        padding: 10px 5px;
+    }
+
+    .delete-button {
+        width: 40px;
+        height: 40px;
+    }
+}
