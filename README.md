@@ -30,8 +30,8 @@
 **-->#Folder Structure**
 
   expense-tracker/
-  │── index.html
-  │── styles.css
+  │── Home.html
+  │── Home.css
   │── images/
   │── assets/
 
