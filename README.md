@@ -1,9 +1,9 @@
 # Expense_Tracker
-**-->Overview**
+**-->#Overview**
 
   The Expense Tracker is a simple web application designed to help users track their daily expenses. Built using HTML and CSS, this project provides an intuitive user interface for managing expenses in an organized manner.
 
-**-->Features**
+**-->#Features**
 
    User-friendly interface with a clean design
 
@@ -13,13 +13,13 @@
 
    Responsive layout for seamless access on different devices
 
-**-->Technologies Used**
+**-->#Technologies Used**
 
    HTML: Structure of the web pages
 
    CSS: Styling and layout design
 
-**-->How to Run the Project**
+**-->#How to Run the Project**
 
   Download or clone the repository.
 
@@ -27,7 +27,7 @@
 
   Start tracking your expenses!
 
-**-->Folder Structure**
+**-->#Folder Structure**
 
   expense-tracker/
   │── index.html
@@ -35,10 +35,4 @@
   │── images/
   │── assets/
 
-**-->Future Enhancements**
 
-  Integration with JavaScript for dynamic expense tracking
-
-  Data persistence using local storage or backend database
-
-  Advanced filtering and reporting features
